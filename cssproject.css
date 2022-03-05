@@ -1,0 +1,127 @@
+body {
+    background-color: ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: #19a0aa;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 1rem;
+
+}
+.navbar nav {
+text-transform: uppercase;
+word-spacing: 25px;
+text-align: center;
+
+}
+.navbar nav a {
+    text-decoration: none;
+   padding: 15px;
+
+
+}
+.navbar nav span a {
+    word-spacing: normal;
+}
+.navbar nav a img {
+    width: 20px;
+    height: 15px;
+}
+.navbar nav a:hover {
+background-color: #07818a;
+color: rgb(44, 83, 78);
+padding: 16px;
+text-decoration: underline;
+}
+
+.clear-div {
+    clear: both;
+}
+.containar {
+    background-color: aqua;
+    margin: 0 auto;
+    max-width: 80%;
+    min-height: 2000px;
+    padding: 1rem;
+
+    color: rgb(25, 66, 57);
+    }
+    /*header section start*/
+    .image {
+        width: 100px;
+        height: 110px;
+        border: 2px solid rgb(27, 228, 228);
+        border-radius: 50%;
+        float: left;
+    }
+    .name {
+        margin: 5px;
+        padding: 3px;
+        float: left;
+    }
+    .phone  {
+        float: right;
+        padding: 30px;
+        font-weight: bold;
+
+    }
+    .phone p span {
+
+    }
+    .phone p a {
+        text-decoration: none;
+    }
+    .phone p span:hover {
+        color: #07818a;
+        padding: 1px;
+        text-decoration: underline;
+    }
+    .phone p a:hover {
+      text-decoration: underline;
+      padding: 1px;
+      color: #07818a;
+
+    }
+    /*header section end*/
+    /*personal section start*/
+    #personal-section {
+
+    }
+  .content {
+
+  }
+    .left-div {
+    width: 45%;
+    height: 50%;
+    float: left;
+    background-color:#42dee9 ;
+    text-align: center;
+
+}
+.left-div h3  {
+    padding: 5px;
+
+}
+.left-div span {
+}
+.left-div img {
+    width: 99%;
+    min-height: 100%;
+    border: 1px solid rgb(36, 138, 138) ;
+
+}
+
+
+    .right-div {
+    width: 50%;
+    float: right;
+    text-align: justify;
+    background-color: #42dee9;
+}
+.right-div p {
+    padding: 5px;
+}
+
+
+     /*personal section end*/
